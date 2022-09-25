@@ -11,4 +11,4 @@
 5. selanjutnya untuk mengetahui isi dari sebuah direktori bisa menggunakan command 'ls' ketika kita menggunakan command tersebut kita akan mengetahui file apa saja yang ada di dalam direktori tersebut atau folder tersebut
 6. setelah itu ada command untuk berpindah dari folder a ke b 
 - contoh: di laptop saya punya 2 driver C dan D, ketika membuka terminal posisi saya otomatis pasti ada di drive c dan saya ingin berpindah ke drive d caranya tinggal menggunakan command 'cd D:\' kemudian akan langsung berpindah ke drive D
-7. berikutnya ada command yang bisa melihat isi file yaitu command 'cat' selain command itu juga ada 'head' dan 'tail' command tersebut berguna untuk melihat isi file yang ada pada direktori cara penggunaan nya yaitu dengan 'cat <nama file>'.
+7. berikutnya ada command yang bisa melihat isi file yaitu command 'cat' selain command itu juga ada 'head' dan 'tail' command tersebut berguna untuk melihat isi file yang ada pada direktori cara penggunaan nya yaitu dengan "cat < nama file >".
