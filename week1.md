@@ -19,3 +19,17 @@
     - command cp berfungsi untuk mengkloning atau mengcopy file/folder, untuk mengcopy file menggunakan command '*cp (nama file) (tujuan paste)*' lalu untuk folder sama seperti di command mv ditambahkan -r setelah command nya jadi seperti ini '*cp -r (nama folder) (tujuan paste)*'
 ## git & github
 
+1. kenapa kita harus memakai git dan github? karena bagi programmer git dan github itu penting, kenapa bisa penting karena git bisa memberikan data apa saja yang berubah dan siapa yang ngerubahnya, selain itu juga dengan ada nya github para developer bisa mengerjakan bareng atau biasa collab.
+2. apa bedanya git dan github, bedanya yaitu git adalah perangkat lunak berbentuk command line yang mengelola riwayat kode sumber kalo github itu sistem layanan hosting untuk repository git.
+3. cara kerja git dan github, pertama kita mempunya sebuah projek direktori di komputer kita lalu kita tambahkan ke staging area, setelah masuk ke staging area file itu di commit + tambahkan komentar atau message apa yang telah di tambahkan atau di perbarui, abis itu file tersebut akan di simpan di git repository.
+4. cara membuat repository sbb:
+        - buat direktori/folder untuk menyimpan file project
+        - setelah itu klik kanan pada folder tersebut lalu klik *git bash here* dan nanti muncul terminal
+        - lalu ketikan *git init* agar folder tersebut menjadi repository
+        - pergi ke github kita buat juga repository disitu caranya gampang tinggal klak klik karena bersifat gui
+        - balik lagi ke folder project, kita buat file project disitu misalkan index.html yang berisi test. 
+        - berikutnya kita ketikan di git dengan command *git add .*
+        - selanjutnya commit *commit -m "nambahin file index.html*
+        - lalu remote ke github command nya *git remote add origin + link*
+        - abis itu di push ke github *git push -u origin master*
+5. cara mengclone repository github ke folder komputer, command nya sebagai berikut *git clone git@github.com:NamaPemilik/NamaRepository.git* jika sudah tekan enter.
