@@ -17,3 +17,5 @@
 10. selain menhapus bisa juga memindahkan atau mengcopy dan merename file & folder dengan command '*mv dan cp*', kita command mv terlebih dahulu, 
     - command mv berfungsi untuk memindahkan file/folder selain itu juga command tersebut bisa juga digunakan untuk merename file/folder. cara penggunaan command mv untuk memindahkan file yaitu dengan mengetikan '*mv (file yang mau dipindahkan) (tujuan direktori)*', untuk memindahkan folder/directory sama saja bedanya ada tambahan -r setelah command jadi command nya seperti ini '*mv -r (nama folder/direktori) (tujuan direktori)*'.
     - command cp berfungsi untuk mengkloning atau mengcopy file/folder, untuk mengcopy file menggunakan command '*cp (nama file) (tujuan paste)*' lalu untuk folder sama seperti di command mv ditambahkan -r setelah command nya jadi seperti ini '*cp -r (nama folder) (tujuan paste)*'
+## git & github
+
