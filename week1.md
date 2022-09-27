@@ -39,4 +39,10 @@
 2. selanjutnya ada beberapa tools pendukung untuk menggunakan html yaitu bisa menggunakan text editor, browser, serta plugin pendukung seperti live server
 3. saya juga sudah membuat web sederhana, kebetulan juga itu tugas dari skilvul bagian kelas skilpath berikut ini saya kasih source code nya https://github.com/ThonyBiersack/web-sederhana-skillpath-skilvul
 4. berikutnya cara menjalankan html dengan manual menggunakan vscode sbb:
-        - 
+        - buat file terlebih dahulu dengan extension nya .html lalu simpan di folder
+        - setelah itu isikan file (nama).html tersebut dengan ``` <h1>hello world</h1>``` setelah itu save
+        - buka extension di vscode lalu cari live server lalu install live server nya
+        - jika sudah restart vscode nya lalu dibagian paling bawah ada go live klik itu
+        - jangan lupa install juga live server di google chrome
+        - nah nanti bakalan muncul file yang sudah kita buat tadi
+5. 
