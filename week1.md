@@ -35,3 +35,7 @@
 5. cara mengclone repository github ke folder komputer, command nya sebagai berikut *git clone git@github.com:NamaPemilik/NamaRepository.git* jika sudah tekan enter.
 
 ## HTML & CSS
+1. apa peran html pada website, perannya yaitu untuk membuat kerangka dari tampilan website lalu di warnai atau di hias oleh css
+2. selanjutnya ada beberapa tools pendukung untuk menggunakan html yaitu bisa menggunakan text editor, browser, serta plugin pendukung seperti live server
+3. saya juga sudah membuat web sederhana, kebetulan juga itu tugas dari skilvul bagian kelas skilpath berikut ini saya kasih source code nya https://github.com/ThonyBiersack/web-sederhana-skillpath-skilvul
+4. 
