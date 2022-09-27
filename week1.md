@@ -65,4 +65,27 @@
                 <li>list 3</li>
              </ul>```
           list diatas untuk menampilkan un-order list
-    ### 
+    ### tag untuk menyisipkan gambar
+        - ```<img src="https://bit.ly/34qGnKk">```
+    ### table
+        - ```<table>
+                <thead>
+                    <tr>
+                        <th>Mama</th>
+                        <th>kota asal</th>
+                    </tr>
+                 </thead>
+                 <tbody>
+                    <tr>
+                        <td>Thony</td>
+                        <td>sukabumi</td>
+                    </tr>
+                 </tbody>
+              </table>```
+    ### header & footer
+        - ```<header> this is my header</header>```
+        - ```<footer> this footer @copyright2022</footer>```
+    ### div
+        - ```<div>test</div>```
+6. apa itu semantic html, menurut saya semantic html itu membuat kerangka html dengan memakai tag yang tersedia dan sesuai.
+7. 
