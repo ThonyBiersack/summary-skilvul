@@ -45,4 +45,24 @@
         - jika sudah restart vscode nya lalu dibagian paling bawah ada go live klik itu
         - jangan lupa install juga live server di google chrome
         - nah nanti bakalan muncul file yang sudah kita buat tadi
-5. 
+5. ada beberapa tag html yang populer yang harus diketahui oleh pemula yaitu
+    ### tulisan bold, miring dan garis bawah
+        - ```<b>ini tag untuk tulisan bold</b>```
+        - ```<i>ini tulisan agar miring</i>```
+        - ```<u>tulisan biar ada garis bawah nya</u>
+    ### tulisan yang bisa mengarahkan ke link tertentu
+        - ```<a href="https://www.wikipedia.org">klik disini</a>```
+    ### menampilkan list
+        - ```<ol>
+                <li>list 1</li>
+                <li>list 2</li>
+                <li>list 3</li>
+            </ol>```
+         list diatas untuk menampilkan order list
+        - ```<ul>
+                <li>list 1</li>
+                <li>list 2</li>
+                <li>list 3</li>
+             </ul>```
+          list diatas untuk menampilkan un-order list
+    ### 
