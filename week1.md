@@ -88,4 +88,11 @@
     ### div
         - ```<div>test</div>```
 6. apa itu semantic html, menurut saya semantic html itu membuat kerangka html dengan memakai tag yang tersedia dan sesuai.
-7. 
+7. cara mengdeploy project ke github yaitu:
+        - login ke netlify kalo belom punya akunya daftar terlebih dahulu
+        - lalu ke menu site
+        - klik add new site
+        - lalu pilih project kalian dari github
+        - setelah itu nanti akan di arahkan ke github untuk mengauthorize atau mengkonfirmasi dan memasukan password
+        - kemudian sesudah memasukan password pilih project yang akan di deoploy dan kliik deploy
+        - lalu web kalian sudah terdeploy.
