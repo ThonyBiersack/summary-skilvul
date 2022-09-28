@@ -17,6 +17,7 @@
 10. selain menhapus bisa juga memindahkan atau mengcopy dan merename file & folder dengan command '*mv dan cp*', kita command mv terlebih dahulu, 
     - command mv berfungsi untuk memindahkan file/folder selain itu juga command tersebut bisa juga digunakan untuk merename file/folder. cara penggunaan command mv untuk memindahkan file yaitu dengan mengetikan '*mv (file yang mau dipindahkan) (tujuan direktori)*', untuk memindahkan folder/directory sama saja bedanya ada tambahan -r setelah command jadi command nya seperti ini '*mv -r (nama folder/direktori) (tujuan direktori)*'.
     - command cp berfungsi untuk mengkloning atau mengcopy file/folder, untuk mengcopy file menggunakan command '*cp (nama file) (tujuan paste)*' lalu untuk folder sama seperti di command mv ditambahkan -r setelah command nya jadi seperti ini '*cp -r (nama folder) (tujuan paste)*'
+
 ## git & github
 
 1. kenapa kita harus memakai git dan github? karena bagi programmer git dan github itu penting, kenapa bisa penting karena git bisa memberikan data apa saja yang berubah dan siapa yang ngerubahnya, selain itu juga dengan ada nya github para developer bisa mengerjakan bareng atau biasa collab.
@@ -40,35 +41,42 @@
 3. saya juga sudah membuat web sederhana, kebetulan juga itu tugas dari skilvul bagian kelas skilpath berikut ini saya kasih source code nya https://github.com/ThonyBiersack/web-sederhana-skillpath-skilvul
 4. berikutnya cara menjalankan html dengan manual menggunakan vscode sbb:
         - buat file terlebih dahulu dengan extension nya .html lalu simpan di folder
-        - setelah itu isikan file (nama).html tersebut dengan ``` <h1>hello world</h1>``` setelah itu save
+        - setelah itu isikan file (nama).html tersebut dengan `<h1>hello world</h1>` setelah itu save
         - buka extension di vscode lalu cari live server lalu install live server nya
         - jika sudah restart vscode nya lalu dibagian paling bawah ada go live klik itu
         - jangan lupa install juga live server di google chrome
         - nah nanti bakalan muncul file yang sudah kita buat tadi
 5. ada beberapa tag html yang populer yang harus diketahui oleh pemula yaitu
     ### tulisan bold, miring dan garis bawah
-        - ```<b>ini tag untuk tulisan bold</b>```
-        - ```<i>ini tulisan agar miring</i>```
-        - ```<u>tulisan biar ada garis bawah nya</u>
+         <b>ini tag untuk tulisan bold</b>
+        
+         <i>ini tulisan agar miring</i>
+        
+         <u>tulisan biar ada garis bawah nya</u>
     ### tulisan yang bisa mengarahkan ke link tertentu
-        - ```<a href="https://www.wikipedia.org">klik disini</a>```
+         <a href="https://www.wikipedia.org">klik disini</a>
     ### menampilkan list
-        - ```<ol>
-                <li>list 1</li>
-                <li>list 2</li>
-                <li>list 3</li>
-            </ol>```
+          <ol>
+              <li>list 1</li>
+              <li>list 2</li>
+              <li>list 3</li>
+          </ol> 
+            
          list diatas untuk menampilkan order list
-        - ```<ul>
-                <li>list 1</li>
-                <li>list 2</li>
-                <li>list 3</li>
-             </ul>```
+         <ul>
+              <li>list 1</li>
+              <li>list 2</li>
+              <li>list 3</li>
+         </ul> 
           list diatas untuk menampilkan un-order list
+          
+          
     ### tag untuk menyisipkan gambar
-        - ```<img src="https://bit.ly/34qGnKk">```
+          <img src="https://bit.ly/34qGnKk>
+
+
     ### table
-        - ```<table>
+          <table>
                 <thead>
                     <tr>
                         <th>Mama</th>
@@ -81,14 +89,21 @@
                         <td>sukabumi</td>
                     </tr>
                  </tbody>
-              </table>```
+              </table> 
+              
+              
     ### header & footer
-        - ```<header> this is my header</header>```
-        - ```<footer> this footer @copyright2022</footer>```
+          <header> this is my header</header> 
+          <footer> this footer @copyright2022</footer> 
+
+
     ### div
-        - ```<div>test</div>```
+          <div>test</div>
+
+
 6. apa itu semantic html, menurut saya semantic html itu membuat kerangka html dengan memakai tag yang tersedia dan sesuai.
-7. cara mengdeploy project ke github yaitu:
+
+7. cara mengdeploy project ke github yaitu
 
         - login ke netlify kalo belom punya akunya daftar terlebih dahulu
         - lalu ke menu site
