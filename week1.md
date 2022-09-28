@@ -112,3 +112,23 @@
         - setelah itu nanti akan di arahkan ke github untuk mengauthorize atau mengkonfirmasi dan memasukan password
         - kemudian sesudah memasukan password pilih project yang akan di deoploy dan kliik deploy
         - lalu web kalian sudah terdeploy.
+8. peran css terhadap html seperti dunia tanpa matahari(tidak berwarna) jadi agar sebuah website terlihat menarik harus dibari css.
+9. untuk menyisipkan css ada 2 cara yaitu bisa dicantumkan di dalam file html bisa juga diluar file html nya. berikut saya contohkan css dalam file dan luar file
+          `<html>
+           <head>
+                <title>test</title>
+           <style>
+           h1{
+            color: red;
+           }
+           </head>`
+           contoh diatas itu untuk dalam file html
+         `<html>
+           <head>
+                <title>test</title>
+           <link rel="stylesheet" type="text/css" href="style.css">
+           </head>`
+           lalu ini untuk eksternal
+10. lalu ada css styling, contoh nya seperti yang sudah saya buat berikut ini https://github.com/ThonyBiersack/web-sederhana-skillpath-skilvul/blob/main/style.css
+11. lalu ada metode responsive pada sebuah web menggunakan css, agar web responsive maka buatlah sebuah id yang merangkap seluruh halaman lalu id tersebut diberi element css width : 100%;
+12. selanjutnya ada flexbox, flexbox digunakan agar website kita dinamis atau bisa dibilang ukuran nya bisa berubah ubah bisa juga digunakan untuk web responsive.
