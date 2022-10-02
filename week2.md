@@ -149,4 +149,4 @@ misalkan kita ingin mengambil tag h1 menggunakan javascript dengan cara
     }
   ```
   diatas adalah kondisi di file javascript
-  - datas adalah cara menampilkan data inputan menggunakan javascript
+  - diatas adalah cara menampilkan data inputan menggunakan javascript
