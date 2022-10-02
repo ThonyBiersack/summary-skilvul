@@ -95,4 +95,58 @@ console.log diatas akan menampilkan tipe data yang ada di variable hewan yaitu _
 
 ## DOM
 
-1. 
+1. apa itu dom, dom itu untuk mengambil id atau juga bisa memanipulasi file html, selain itu juga dom bisa mengubah tampilan css pada html. 
+contoh:
+```
+  <!doctype html>
+  <html>
+  <head>
+  </head>
+  <body>
+    <h1>hallo</h1>
+  </body>
+  <html>
+```
+misalkan kita ingin mengambil tag h1 menggunakan javascript dengan cara
+```
+  document.getElementsByTagName('h1')[0].innerText
+```
+2. selanjutnya ada cara untuk mengambil data dari h1 dan dijadikan data untuk paragraf, sbb
+  - pertama buat dulu tag `<p>`tapi tidak usah di isi apa apa
+  - lalu simpan data yang berada di tag h1 kedalam varible javascript
+  ```
+    const h1= document.getElementsByaTagName('h1')[0].innerText
+  ```
+  - setelah itu panggil tag p menggunakan javascript lalu kembalikan value yang ada di variable const h1
+  ```
+    document.getElementsBytagName('p')[0].innertText = h1
+  ```
+  - setelah itu nanti akan muncul di tag p html
+3. setelah itu ada cara untuk mendapatkan value dari tag input agar ditampilkan dalam pargraf atau heading sbb
+
+  - buat tag input di html
+  - buat juga tag button dan berikan onclick didalam nya yang berisikan dari nama function yang akan dibuat
+  - buat function di javascript untuk menampung method nya 
+  ```
+      <!doctype html>
+  <html>
+  <head>
+  </head>
+  <body>
+    <h1>hallo</h1>
+    <input />
+    <button onclick= test>click me!</button>
+    <p></p>
+  </body>
+  <html>
+  ```
+  diatas adalah kondisi di file html
+
+  ```
+    function test(){
+      const masukan= document.getElementsByTagName('input')[0].value
+      document.getElementsByTagName('p')[0].innerText = masukan
+    }
+  ```
+  diatas adalah kondisi di file javascript
+  - datas adalah cara menampilkan data inputan menggunakan javascript
